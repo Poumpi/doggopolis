@@ -6,6 +6,8 @@
 	let { children }: LayoutProps = $props();
 </script>
 
+<a href="/">Doggopolis</a>
+
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
