@@ -1,6 +1,7 @@
 <h1>Welcome to Doggopolis</h1>
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation Svelte & SvelteKit, the framework used to build this app</p>
 
+<div class="list vertical end">
 <a href="/about">About us</a>
 <a href="/contact-us">Contact us</a>
 <a href="/credits">Credits</a>
@@ -9,4 +10,18 @@
 <a href="/privacy-policy">Privacy Policy</a>
 <a href="/rules">Rules</a>
 <a href="/terms-of-use">Terms of Use</a>
+</div>
 
+<style>
+.list {
+  display: flex;
+  width: fit-content;
+}
+.vertical {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.vertical.end {
+   align-items: end;
+}
+</style>
